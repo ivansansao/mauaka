@@ -22,7 +22,7 @@ function concats(args)
 
 return concated
 
-function StringToOject(string)
+function StringToObject(string)
 return &(string)
 
 function ObjectToString(object)

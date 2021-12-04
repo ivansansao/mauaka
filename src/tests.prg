@@ -10,7 +10,7 @@ function teste_StringToOject()
 
     local texto := '{{"central"},{"carburador",{"injetado",1}},{"km",50000},date()}'
 
-    local oObject := StringToOject(texto)
+    local oObject := StringToObject(texto)
     local string := ObjectToString(oObject)
 
     pessoa := {"acao","seconds"}
